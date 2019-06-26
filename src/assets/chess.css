@@ -1,0 +1,22 @@
+.container {
+    width:500px;
+    margin:50px auto;
+    text-align: center;
+}
+.chess {
+    width:300px;
+    height:300px;
+    background:#ccc;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 auto;
+}
+.chess span {
+    width:100px;
+    height:100px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 100px;
+    font-size: 40px;
+}
